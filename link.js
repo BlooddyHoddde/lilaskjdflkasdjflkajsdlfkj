@@ -53,7 +53,7 @@ client.on('message', msg => {
 });
 
 client.on('message', message => {
-    if (message.content.startsWith("link")) {
+    if (message.content === 'link') {
 
   message.channel.createInvite({
         thing: true,
@@ -84,7 +84,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content.startsWith("رابط")) {
+    if (message.content === 'رابط') {
 
   message.channel.createInvite({
         thing: true,
