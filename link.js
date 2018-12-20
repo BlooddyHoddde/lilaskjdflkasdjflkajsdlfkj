@@ -36,7 +36,7 @@ client.on('message', msg => {
 //--------------------------------------------
 client.on('message', msg => {
   if (msg.content === 'رابط ابدى') {
-  msg.author.send('https://discord.gg/6frKqQa')
+  msg.author.send('https://discord.gg')
   }
 });
 
@@ -48,7 +48,7 @@ client.on('message', msg => {
 //--------------------------------------------
 client.on('message', msg => {
   if (msg.content === 'invite unlimte') {
-  msg.author.send('https://discord.gg/6frKqQa')
+  msg.author.send('https://discord.gg/')
   }
 });
 
